@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">Погода</string>
     <string name="text_in_activity">Здесь будет наше погодное приложение!</string>
+    <string name="on_create">onCreate()</string>
+    <string name="on_start">onStart()</string>
+    <string name="on_resume">onResume()</string>
+    <string name="on_pause">onPause()</string>
+    <string name="on_stop">onStop()</string>
+    <string name="on_destroy">onDestroy()</string>
+    <string name="saratov">Саратов</string>
 </resources>

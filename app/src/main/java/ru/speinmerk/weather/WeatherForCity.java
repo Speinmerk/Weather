@@ -16,6 +16,7 @@ public class WeatherForCity extends AppCompatActivity {
 
         City city = getIntent().getParcelableExtra(City.KEY_PARCELABLE);
 
+        // Lesson 3
         TextView tvCity = findViewById(R.id.tv_city);
         TextView tvTemperature = findViewById(R.id.tv_temperature);
         TextView tvHumidity = findViewById(R.id.tv_humidity);

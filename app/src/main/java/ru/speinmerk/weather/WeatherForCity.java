@@ -27,5 +27,6 @@ public class WeatherForCity extends AppCompatActivity {
         tvHumidity.setText(String.format("Влажность: %s", city.humidity));
         tvWindSpeed.setText(String.format("Скорость ветра: %s м/с", city.windSpeed));
         tvPressure.setText(String.format("Давление: %s мм рт.ст.", city.pressure));
+
     }
 }

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="text_in_activity">Hello World!!!</string>
+    <string name="saratov">Saratov</string>
+    <string name="btn_ok">Ok</string>
+    <string name="city">City</string>
+    <string name="enter_city">Entered city!</string>
+</resources>

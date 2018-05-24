@@ -13,9 +13,6 @@
         android:layout_marginEnd="@dimen/standard"
         android:layout_marginStart="@dimen/standard"
         android:layout_marginTop="@dimen/standard"
-        android:textAlignment="center"
-        android:textSize="18sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

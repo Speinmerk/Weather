@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Weather</string>
+    <string name="app_name">Погода</string>
+    <string name="text_in_activity">Здесь будет наше погодное приложение!</string>
+    <string name="saratov">Саратов</string>
+    <string name="btn_ok">ОК</string>
+    <string name="city">Город</string>
+    <string name="enter_city">Введите город!</string>
 </resources>

@@ -1,24 +1,28 @@
-package ru.speinmerk.weather.models;
+package ru.speinmerk.weather.model;
 
+import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.Ignore;
+import android.arch.persistence.room.PrimaryKey;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.annotation.NonNull;
 
+@Entity
 public class City implements Parcelable {
+    @Ignore
     public static final String KEY_PARCELABLE = "City.class";
+
+    @NonNull
+    @PrimaryKey
     public String name;
     public int temperature;
     public int humidity;
     public int windSpeed;
     public int pressure;
 
-    public City(String name, int temperature, int humidity, int windSpeed, int pressure) {
+    public City(String name) {
         this.name = name;
-        this.temperature = temperature;
-        this.humidity = humidity;
-        this.windSpeed = windSpeed;
-        this.pressure = pressure;
     }
-
 
     @Override
     public int describeContents() {
